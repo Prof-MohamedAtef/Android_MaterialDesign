@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="nanodegree.ed.mo.prof.appmaterial_nanodegree">
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -8,15 +9,44 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".DynamicSurfaceActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DynamicSurfaceActivity" />
+        <activity
+            android:name=".FontsActivity"
+            android:theme="@style/DarkAppTheme" />
+        <activity
+            android:name=".Animation.CoordinatedMotion.MultipleChaoticElements"
+            android:theme="@style/DarkAppTheme" />
+        <activity
+            android:name=".Animation.AnimationsActivity"
+            android:theme="@style/DarkAppTheme" />
+        <activity
+            android:name=".Animation.CoordinatedMotion.StartActivity"
+            android:theme="@style/CoordinatedMotionTheme"></activity>
+        <activity
+            android:name=".Animation.CoordinatedMotion.CurvedMotionDetailActivity"
+            android:theme="@style/CoordinatedMotionTheme" />
+        <activity
+            android:name=".Animation.CoordinatedMotion.CurvedMotionGridActivity"
+            android:theme="@style/CoordinatedMotionTheme" />
+        <activity
+            android:name=".Animation.CoordinatedMotion.MultipleElementsActivity"
+            android:theme="@style/CoordinatedMotionTheme" />
+        <activity
+            android:name=".Animation.CoordinatedMotion.SizeChangeActivity"
+            android:theme="@style/CoordinatedMotionTheme" />
+        <activity
+            android:name=".Animation.HeartFill.MainHeartActivity"
+            android:theme="@style/HeartFillTheme">
         </activity>
-        <activity android:name=".FontsActivity"
-            android:theme="@style/DarkAppTheme">
+        <activity android:name=".Animation.CrossToTick.CrossToTickActivity"
+            android:theme="@style/CrossTickTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

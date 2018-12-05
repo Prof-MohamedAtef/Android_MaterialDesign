@@ -6,5 +6,7 @@
     <color name="translucent_blue">#3c0000ff</color>
     <color name="red">#8A040C</color>
     <color name="label">#4e4dba</color>
+    <color name="statusBar">#333</color>
+    <color name="windowBackground">#E0E0E0</color>
 </resources>
 
